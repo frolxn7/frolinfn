@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1;
+  }
+  .header {
+    background:url(https://i1.wallbox.ru/wallpapers/main/201314/4ca8b4d543b8752.jpg)
+    /* width: 500px; */
+    /* margin: 50px auto; */
+  }
+  
+  .header .top {
+    overflow: hidden;
+    /* box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2); */
+  }
+  /* https://developer.mozilla.org/ru/docs/Web/CSS/box-shadow */
+  
+  .header .top .navLink {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    font-size: 130%;
+    float: left;
+    /* text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2); */
+  }
+  
+  .header .nav {
+    display: none;
+  }
+  
+  /* .header .nav ul {
+    padding: 10px 0px 10px 0px;
+  } */
+  
+  .header .nav ul li a {
+    padding: 10px;
+    color: #fff;
+    font-size: 90%;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+    display: block;
+
+  }
+  
+  .header .nav ul li a:hover {
+    background: url(https://i1.wallbox.ru/wallpapers/main/201314/4ca8b4d543b8752.jpg)
+  }
